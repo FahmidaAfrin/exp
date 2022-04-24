@@ -1,0 +1,4 @@
+SMACK program verifier version 2.4.0
+llvm2bpl: main_reno_undo.c:27:2: warning: over-approximating unmodeled operation llvm.stacksave;
+llvm2bpl: main_reno_undo.c:155:1: warning: unsoundly ignoring unmodeled operation llvm.stackrestore;
+SMACK timed out.
