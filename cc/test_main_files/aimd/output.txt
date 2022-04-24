@@ -1,0 +1,20 @@
+SMACK program verifier version 2.4.0
+llvm2bpl: ../../stub_model/source-new/simple_tcp_cong.c:306:9: warning: over-approximating bitwise operation lshr; try adding flag(s): --bit-precise 
+llvm2bpl: ../../stub_model/source-new/simple_tcp_cong.c:314:9: warning: over-approximating bitwise operation shl; try adding flag(s): --bit-precise 
+llvm2bpl: ../../stub_model/header-new/simple_tcp.h:530:13: warning: over-approximating bitwise operation lshr; try adding flag(s): --bit-precise 
+llvm2bpl: ../../stub_model/header-new/simple_tcp.h:530:13: warning: over-approximating bitwise operation and; try adding flag(s): --bit-precise 
+llvm2bpl: ../../stub_model/source-new/simple_tcp_cong.c:97:27: warning: over-approximating bitwise operation and; try adding flag(s): --bit-precise 
+llvm2bpl: ../../stub_model/source-new/simple_tcp_cong.c:97:27: warning: over-approximating bitwise operation or; try adding flag(s): --bit-precise 
+llvm2bpl: ../../stub_model/header-new/simple_bitops.h:18:45: warning: over-approximating bitwise operation and; try adding flag(s): --bit-precise 
+llvm2bpl: ../../stub_model/header-new/simple_bitops.h:18:38: warning: over-approximating bitwise operation shl; try adding flag(s): --bit-precise 
+llvm2bpl: ../../stub_model/header-new/simple_bitops.h:18:25: warning: over-approximating bitwise operation ashr; try adding flag(s): --bit-precise 
+llvm2bpl: ../../stub_model/header-new/simple_bitops.h:18:32: warning: over-approximating bitwise operation or; try adding flag(s): --bit-precise 
+llvm2bpl: ../../stub_model/header-new/simple_tcp.h:438:22: warning: over-approximating bitwise operation and; try adding flag(s): --bit-precise 
+llvm2bpl: ../../stub_model/header-new/simple_tcp.h:438:22: warning: over-approximating bitwise operation and; try adding flag(s): --bit-precise 
+llvm2bpl: ../../stub_model/header-new/simple_tcp.h:438:22: warning: over-approximating bitwise operation or; try adding flag(s): --bit-precise 
+llvm2bpl: aimd_n2.c:43:22: warning: over-approximating bitwise operation and; try adding flag(s): --bit-precise 
+llvm2bpl: aimd_n2.c:43:22: warning: over-approximating bitwise operation and; try adding flag(s): --bit-precise 
+llvm2bpl: aimd_n2.c:43:22: warning: over-approximating bitwise operation or; try adding flag(s): --bit-precise 
+llvm2bpl: aimd_n2.c:54:22: warning: over-approximating bitwise operation and; try adding flag(s): --bit-precise 
+llvm2bpl: aimd_n2.c:54:22: warning: over-approximating bitwise operation or; try adding flag(s): --bit-precise 
+SMACK aborted by keyboard interrupt.
